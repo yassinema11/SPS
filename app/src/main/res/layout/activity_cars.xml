@@ -1,0 +1,20 @@
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ACB1D6"
+        tools:context=".Cars">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ACB1D6"
+            android:id="@+id/voitures"
+            android:left="16dp"
+            android:right="16dp"
+            android:top="8dp"
+            android:bottom="8dp"/>
+</RelativeLayout>
+

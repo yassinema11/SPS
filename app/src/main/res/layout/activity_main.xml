@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b1"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:layout_marginLeft="60dp"
+        android:textColor="@color/black"
+        android:text="Bienvenue !"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        />
+
+    <EditText
+        android:id="@+id/userlogin"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="210dp"
+        android:layout_below="@id/welcome"
+        android:ems="10"
+        android:textColor="@color/black"
+        android:inputType="textPersonName"
+        android:background="@drawable/input"
+        android:hint="Nom d'utilisateur"
+        android:layout_marginLeft="35dp"
+        android:textColorHint="@color/white"
+        android:textStyle="bold"
+        android:gravity="center"
+         />
+
+    <EditText
+        android:id="@+id/userpass"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/userlogin"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input"
+        android:textColor="@color/black"
+        android:hint="Mot de Passe"
+        android:textColorHint="@color/white"
+        android:textStyle="bold"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/Loginbtn"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userpass"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button"
+        android:gravity="center"
+        android:text="Se Connnecter"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/CreerCompte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Loginbtn"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:text="Creer Votre Compte" />
+
+</RelativeLayout>
